@@ -1,0 +1,69 @@
+body {
+    background-color: #e38bbf !important;
+    text-decoration: none !important;
+}
+
+a {
+    color: #bc2c79 !important;
+    text-decoration: none !important;
+
+}
+
+a:hover {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+
+/*  Шапка */
+.header {
+    background-color: #bc2c79 !important;
+}
+
+
+.navcont {
+    background-color: #e38bbf !important;
+
+}
+
+.navcont:hover {
+    background-color: #F4DBDB;
+    border: 2px solid #CD4662;
+    border-radius: 8px;
+    color: black;
+}
+
+h2 {
+    background-color: #bc2c79;
+}
+
+.link-list {
+    display: flex;
+    order: 0;
+}
+
+.table-container {
+    display: flex;
+    order: 1
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* подвал */
+footer {
+    background-color: #c61f6a;
+}
+
+@media(max-width:769px) {
+
+    .link-list {
+        order: 0;
+    }
+
+    .table-container {
+        order: -1;
+    }
+}
